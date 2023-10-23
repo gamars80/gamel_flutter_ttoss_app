@@ -1,7 +1,7 @@
-import 'package:fast_app_base/common/common.dart';
-import 'package:fast_app_base/common/theme/custom_theme_app.dart';
-import 'package:fast_app_base/screen/main/s_main.dart';
-import 'package:fast_app_base/screen/splash/s_splash.dart';
+import 'package:gamel_flutter_ttoss/common/common.dart';
+import 'package:gamel_flutter_ttoss/common/theme/custom_theme_app.dart';
+import 'package:gamel_flutter_ttoss/screen/main/s_main.dart';
+import 'package:gamel_flutter_ttoss/screen/splash/s_splash.dart';
 import 'package:flutter/material.dart';
 
 import 'common/theme/custom_theme.dart';

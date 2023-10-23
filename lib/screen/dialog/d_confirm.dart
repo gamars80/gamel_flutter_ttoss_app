@@ -1,5 +1,5 @@
-import 'package:fast_app_base/common/widget/scaffold/center_dialog_scaffold.dart';
-import 'package:fast_app_base/data/simple_result.dart';
+import 'package:gamel_flutter_ttoss/common/widget/scaffold/center_dialog_scaffold.dart';
+import 'package:gamel_flutter_ttoss/data/simple_result.dart';
 import 'package:flutter/material.dart';
 import 'package:nav/dialog/dialog.dart';
 

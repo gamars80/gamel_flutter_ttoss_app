@@ -1,4 +1,4 @@
-import 'package:fast_app_base/common/theme/custom_theme.dart';
+import 'package:gamel_flutter_ttoss/common/theme/custom_theme.dart';
 import 'package:flutter/material.dart';
 
 import '../common.dart';
