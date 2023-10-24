@@ -1,7 +1,9 @@
 import 'package:gamel_flutter_ttoss/common/common.dart';
 import 'package:flutter/material.dart';
+import 'package:gamel_flutter_ttoss/screen/notification/s_notification.dart';
 
 class TtossAppBar extends StatefulWidget {
+  static const double appBarHeight = 60;
   const TtossAppBar({Key? key}) : super(key: key);
 
   @override
@@ -14,7 +16,7 @@ class _TtossAppBarState extends State<TtossAppBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60,
+      height: TtossAppBar.appBarHeight,
       color: context.appColors.appBarBackground,
       child: Row(
         children: [
@@ -31,9 +33,8 @@ class _TtossAppBarState extends State<TtossAppBar> {
           width10,
           Tap(
             onTap: () {
-              setState(() {
-                _showRedDot = !_showRedDot;
-              });
+              //알림 화면 이동
+              Nav.push(const NotificationScreen());
             },
             child: Stack(
               children: [
