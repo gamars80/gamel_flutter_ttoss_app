@@ -19,6 +19,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
       body: CustomScrollView(
         slivers: [
           const SliverAppBar(
+            backgroundColor: Colors.black,
             title: Text('알림'),
           ),
           SliverList(

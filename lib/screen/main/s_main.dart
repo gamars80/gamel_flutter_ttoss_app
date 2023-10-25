@@ -100,6 +100,7 @@ class MainScreenState extends State<MainScreen>
 
   Widget _buildBottomNavigationBar(BuildContext context) {
     return Container(
+      // color: Colors.black ,
       decoration: const BoxDecoration(
         boxShadow: [
           BoxShadow(color: Colors.black26, spreadRadius: 0, blurRadius: 10),
