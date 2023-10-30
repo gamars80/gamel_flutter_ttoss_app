@@ -4,6 +4,7 @@ import 'package:gamel_flutter_ttoss/screen/notification/s_notification.dart';
 
 class TtossAppBar extends StatefulWidget {
   static const double appBarHeight = 60;
+
   const TtossAppBar({Key? key}) : super(key: key);
 
   @override
@@ -45,15 +46,21 @@ class _TtossAppBarState extends State<TtossAppBar> {
                 if (_showRedDot)
                   Positioned.fill(
                       child: Align(
-                        alignment: Alignment.topRight,
-                        child: Container(
-                          width: 6,
-                          height: 6,
-                          decoration: const BoxDecoration(shape: BoxShape.circle, color: Colors.red),
-                        ),
-                      ))
+                    alignment: Alignment.topRight,
+                    child: Container(
+                      width: 6,
+                      height: 6,
+                      decoration: const BoxDecoration(
+                          shape: BoxShape.circle, color: Colors.red),
+                    ),
+                  ))
               ],
-            ),
+            )
+                // .animate(onPlay: (controller) => controller.repeat())
+                .animate()
+                .shake(duration: 2100.ms, hz: 3)
+                .then()
+                .fadeOut(duration: 1000.ms),
           ),
           width10,
         ],

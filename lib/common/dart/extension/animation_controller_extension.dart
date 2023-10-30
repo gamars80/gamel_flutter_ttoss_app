@@ -1,6 +1,6 @@
 
 import 'package:flutter/widgets.dart';
-import 'package:gamel_flutter_ttoss/common/dart/extension/num_duration_extension.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 extension AnimationControllerExtension on AnimationController {
   void animateToTheEnd() {

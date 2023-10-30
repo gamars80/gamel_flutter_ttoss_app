@@ -1,4 +1,5 @@
-import 'package:gamel_flutter_ttoss/common/dart/extension/num_duration_extension.dart';
+
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:gamel_flutter_ttoss/screen/notification/vo/notification_type.dart';
 import 'package:gamel_flutter_ttoss/screen/notification/vo/vo_notification.dart';
 
