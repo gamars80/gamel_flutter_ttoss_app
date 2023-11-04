@@ -29,10 +29,10 @@ class _SettingScreenState extends State<SettingScreen> with SingleTickerProvider
         case AnimationStatus.forward:
           //실행될때 동작
         case AnimationStatus.reverse:
-          //반대로 실행될때 동작
+          //반대로 실행될때 동
         case AnimationStatus.completed:
           //완료시 동작
-        case AnimationStatus.dismissed:
+        case AnimationStatus.dismissed: 
       }
 
     });
